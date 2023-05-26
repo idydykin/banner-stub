@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>banner</title>
+    <meta name="ad.size" content="width=2000,height=250">
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+<body>
+<div class="banner-stub">
+    <img src="2000x250_Kinopoisk_Zaglushka.jpg">
+    <a id="click_area" href="" target="_blank"></a>
+</div>
+
+<script>
+document.getElementById("click_area").href = yandexHTML5BannerApi.getClickURLNum(1);
+</script>
+</body>
+</html>
